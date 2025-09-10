@@ -1,0 +1,29 @@
+name:               foghorn-data-crsp
+version:            0.1.0.0
+language:           Haskell2010
+
+author:             Robert Tumarkin
+maintainer:         https://github.com/tumarkin
+
+synopsis: CRSP variable definitions for the Foghorn DSL
+category: Econometrics, Language
+
+license: "LicenseRef-PolyForm-Noncommercial-1.0.0"
+license-file: LICENSE
+copyright: (c) 2025 Rob Tumarkin
+
+extra-source-files: CHANGELOG.md
+# bug-reports:
+ 
+library:
+  source-dirs: src
+
+dependencies:
+  - base
+  - foghorn-base
+
+default-extensions:
+  - DataKinds
+  - GADTs
+  - KindSignatures
+  - StandaloneDeriving
