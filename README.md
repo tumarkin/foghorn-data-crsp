@@ -28,6 +28,7 @@ Foghorn is not yet on Hackage. For now, please clone the central [Foghorn reposi
 
 ## Documentation
 
+- [Online **Haddock** documentation](https://tumarkin.github.io/foghorn-data-crsp)
 - In-source **Haddock** comments describe kinds, indices, and constraints.  
 - To build HTML docs locally:
   ```bash
